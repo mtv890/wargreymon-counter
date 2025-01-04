@@ -1,12 +1,10 @@
-// Wait for the DOM content to be fully loaded
+
 document.addEventListener('DOMContentLoaded', () => {
-    // Get references to the button and the message paragraph
     let message = document.getElementById('message');
-    // Display a message in the paragraph when the button is clicked
-     message.innerHTML = getHtmlBasedOnNumber(1); // Example usage with number 1
+    const days = calculateDaysFromDate("2024-12-02");
+    message.innerHTML = getHtmlBasedOnNumber(1); 
 });
 
-// Function that returns specific HTML based on a number
 function getHtmlBasedOnNumber(number) {
     const numberStr = number.toString();
     let html = '';
