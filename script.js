@@ -1,7 +1,7 @@
 // Wait for the DOM content to be fully loaded
 document.addEventListener('DOMContentLoaded', () => {
     // Get references to the button and the message paragraph
-    const message = document.getElementById('message');
+    let message = document.getElementById('message');
     // Display a message in the paragraph when the button is clicked
      message.innerHTML = getHtmlBasedOnNumber(1); // Example usage with number 1
 });
