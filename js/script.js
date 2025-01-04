@@ -15,8 +15,12 @@ function calculateDaysFromDate(startDate) {
 }
 
 function getHtmlBasedOnNumber(number) {
-    const numberStr = "00" + number.toString();
-    html = '';
+    let numberStr = number.toString();
+    let html = '';
+
+    for(let i = 0; i < 5 - numberStr.length; i++){
+         numberStr = "0" + number.toString();
+    }
     for (let char of numberStr) {
          html += `<img src="./img/counter/${char}.gif" style="border: 0px; --darkreader-inline-border-top: 0px; --darkreader-inline-border-right: 0px; --darkreader-inline-border-bottom: 0px; --darkreader-inline-border-left: 0px;" alt="${char}" data-darkreader-inline-border-top="" data-darkreader-inline-border-right="" data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">`;
     }
