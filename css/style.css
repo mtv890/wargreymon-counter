@@ -1,6 +1,7 @@
 
 body {
     background-color:hsl(114, 56%, 77%);
+
     font-family: verdana, sans-serif;
     text-align: center;
     margin: 0;
@@ -67,8 +68,16 @@ img.character {
 
 /* Neon glow effect */
 .neon-text {
+    font-family: 'Pacifico', cursive;
     color: #5ff5d7;
     text-shadow: 0 0 10px #5ff5d7, 0 0 20px #5ff5d7, 0 0 30px #5ff5d7;
+    font-size: 64px; 
+    text-shadow: 
+        0 0 5px #5ff5d7, 
+        0 0 10px #5ff5d7, 
+        0 0 20px #5ff5d7, 
+        0 0 40px #5ff5d7, 
+        0 0 80px #5ff5d7;
 }
 
 /* Add subtle animations */
