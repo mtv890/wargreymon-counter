@@ -18,7 +18,7 @@ function getHtmlBasedOnNumber(number) {
     let numberStr = number.toString();
     let html = '';
 
-    for(let i = 0; i < 6 - number.length; i++){
+    for(let i = 0; i < 6 - number.toString().length; i++) {
          numberStr = "0" + numberStr;
     }
     for (let char of numberStr) {
