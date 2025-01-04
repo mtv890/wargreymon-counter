@@ -2,7 +2,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     let message = document.getElementById('message');
     const days = calculateDaysFromDate("2024-12-02");
-    message.innerHTML = getHtmlBasedOnNumber(1); 
+    message.innerHTML = getHtmlBasedOnNumber(days); 
 });
 
 function getHtmlBasedOnNumber(number) {
