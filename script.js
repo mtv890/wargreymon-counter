@@ -5,6 +5,15 @@ document.addEventListener('DOMContentLoaded', () => {
     message.innerHTML = getHtmlBasedOnNumber(days); 
 });
 
+
+function calculateDaysFromDate(startDate) {
+    const start = new Date(startDate);
+    const today = new Date();
+    const diffTime = Math.abs(today - start); // Difference in milliseconds
+    const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24)); // Convert to days
+    return diffDays;
+}
+
 function getHtmlBasedOnNumber(number) {
     const numberStr = number.toString();
     let html = '';
