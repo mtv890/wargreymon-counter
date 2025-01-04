@@ -19,7 +19,7 @@ function getHtmlBasedOnNumber(number) {
     const numLenght = numberStr.length;
     let html = '';
 
-    for(let i = 0; i < 5 - numLenght; i++){
+    for(let i = 0; i < 6 - numLenght; i++){
          numberStr = "0" + number.toString();
     }
     for (let char of numberStr) {
