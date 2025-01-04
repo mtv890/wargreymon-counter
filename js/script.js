@@ -16,9 +16,10 @@ function calculateDaysFromDate(startDate) {
 
 function getHtmlBasedOnNumber(number) {
     let numberStr = number.toString();
+    const numLenght = numberStr.length;
     let html = '';
 
-    for(let i = 0; i < 7 - numberStr.length; i++){
+    for(let i = 0; i < 5 - numLenght; i++){
          numberStr = "0" + number.toString();
     }
     for (let char of numberStr) {
