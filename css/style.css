@@ -143,44 +143,45 @@ img.character {
 
 #jesus{
     position: absolute;
-    margin: 400px -800px;
+    margin: -9000px -800px;
     width: 8%;
     animation: bounce 15s 1;
     animation-delay: 5s
+    
 }
 
 @keyframes bounce {
     0% {
-        margin: 400px -800px;
+        margin: 800px -800px;
     }
     10% {
-        margin: 300px -800px;
+        margin: 600px -800px;
     }
     20% {
-        margin: 200px -800px;
+        margin: 400px -800px;
     }
     30% {
-        margin: 100px -800px;
+        margin: 200px -800px;
     }
     40% {
         margin: 0px -800px;
     }
     50% {
-        margin: -100px -800px;
-    }
-    60% {
         margin: -200px -800px;
     }
-    70% {
-        margin: -300px -800px;
-    }
-    80% {
+    60% {
         margin: -400px -800px;
     }
+    70% {
+        margin: -600px -800px;
+    }
+    80% {
+        margin: -800px -800px;
+    }
     90% {
-        margin: -500px -800px;
+        margin: -1000px -800px;
     }
     100% {
-        margin: -500px -800px; 
+        margin: -9000px -800px;
     }
 }
