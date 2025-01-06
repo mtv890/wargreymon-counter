@@ -140,3 +140,8 @@ img.character {
     padding: 20px;
     max-width: 1200px;
 }
+
+#jesus{
+    position: absolute;
+    margin: -200px -800px;
+}
