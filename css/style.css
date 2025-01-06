@@ -146,6 +146,7 @@ img.character {
     margin: 400px -800px;
     width: 8%;
     animation: bounce 15s 1;
+    animation-delay: 5s
 }
 
 @keyframes bounce {
@@ -180,7 +181,6 @@ img.character {
         margin: -500px -800px;
     }
     100% {
-        margin: -500px -800px;
-        
+        margin: -500px -800px; 
     }
 }
