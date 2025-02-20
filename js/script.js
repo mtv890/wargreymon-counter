@@ -22,7 +22,7 @@ function getHtmlBasedOnNumber(number) {
          numberStr = "0" + numberStr;
     }
     for (let char of numberStr) {
-         html += `<img src="./img/counter/${char}.gif" style="border: 0px; width: 5.5%;" alt="${char}" data-darkreader-inline-border-top="" data-darkreader-inline-border-right="" data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">`;
+         html += `<img src="./img/counter/${char}.gif" style="border: 0px; width: 4.5%;" alt="${char}" data-darkreader-inline-border-top="" data-darkreader-inline-border-right="" data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">`;
     }
     return html;
 }
