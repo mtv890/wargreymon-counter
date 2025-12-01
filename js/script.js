@@ -26,3 +26,23 @@ function getHtmlBasedOnNumber(number) {
     }
     return html;
 }
+
+var modal = document.getElementById("anversaryModal");
+var span = document.getElementsByClassName("close")[0];
+
+window.onload = function() {
+    setTimeout(function() {
+        modal.style.display = "block";
+    }, 500); 
+}
+
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
