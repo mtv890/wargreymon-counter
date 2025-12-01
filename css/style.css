@@ -202,7 +202,7 @@ img.character {
 
 
 .modal-content {
-    background-color: #ffffff;
+    background-color: #150a0a;
     margin: 15% auto; 
     padding: 30px;
     border: none; 
@@ -215,7 +215,7 @@ img.character {
 
 
 .close {
-    color: #aaa;
+    color: #f2ea9f;
     float: right;
     font-size: 32px;
     font-weight: normal;
@@ -223,7 +223,7 @@ img.character {
     position: absolute;
     top: 10px;
     right: 15px;
-        }
+}
 
 .close:hover,
 .close:focus {
@@ -233,8 +233,7 @@ img.character {
 }
 
 .modal-content h2 {
-    color: #333;
-    border-bottom: 2px solid #eee;
+    color: #f2ea9f;
     padding-bottom: 10px;
     margin-top: 0;
 }
