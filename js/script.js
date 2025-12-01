@@ -27,7 +27,7 @@ function getHtmlBasedOnNumber(number) {
     return html;
 }
 
-var modal = document.getElementById("anversaryModal");
+var modal = document.getElementById("anniversaryModal");
 var span = document.getElementsByClassName("close")[0];
 
 window.onload = function() {
